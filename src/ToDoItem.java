@@ -9,4 +9,9 @@ public class ToDoItem {
         this.text = text;
         this.isDone = false;
     }
+
+    public ToDoItem(String text, boolean isDone) {
+        this.text = text;
+        this.isDone = isDone;
+    }
 }
